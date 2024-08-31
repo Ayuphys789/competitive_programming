@@ -1,10 +1,10 @@
 /**
  * author: Ayuphys
- * number: ABC368-A
- * Title: Cut
- * Link to the Problem: https://atcoder.jp/contests/abc368/tasks/abc368_a
- * Link to the Submission: https://atcoder.jp/contests/abc368/submissions/57256585
- * Difficulty: 20
+ * number: Typical90-001
+ * Title: Yokan Party
+ * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_a
+ * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57336057
+ * Difficulty: 4
  * **/
 
 #include <iostream>
@@ -43,16 +43,48 @@ const int MOD = 998244353;
 const ll dx[4] = {0, 1, 0, -1};
 const ll dy[4] = {1, 0, -1, 0};
 
+int N;
+ll L;
+int K;
+vector<ll> A;
+
+bool solve_cut(ll X)
+{
+    ll cnt = 0;
+    ll now = 0;
+    rep(i, N)
+    {
+        if (A[i] - now >= X && L - A[i] >= X)
+        {
+            cnt++;
+            now = A[i];
+        }
+    }
+    if (cnt >= K)
+        return true;
+    return false;
+}
+
 void Ayuphys_solve(void)
 {
-    int N, K;
-    cin >> N >> K;
-    vector<int> A(N);
+    cin >> N >> L;
+    cin >> K;
+    A.resize(N);
     rep(i, N) cin >> A[i];
-    FOR(i, N - K, N - 1)
-    cout << A[i] << " ";
-    FOR(i, 0, N - K - 1)
-    cout << A[i] << " ";
+    ll left = -1, right = L + 1;
+    while (right - left > 1)
+    {
+        ll mid = left + (right - left) / 2;
+        if (!solve_cut(mid))
+        {
+            right = mid;
+        }
+        else
+        {
+            left = mid;
+        }
+    }
+    cout << left << endl;
     return;
 }
 

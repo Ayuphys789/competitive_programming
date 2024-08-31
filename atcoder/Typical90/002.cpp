@@ -1,10 +1,10 @@
 /**
  * author: Ayuphys
- * number: ABC368-A
- * Title: Cut
- * Link to the Problem: https://atcoder.jp/contests/abc368/tasks/abc368_a
- * Link to the Submission: https://atcoder.jp/contests/abc368/submissions/57256585
- * Difficulty: 20
+ * number: Typical90-002
+ * Title: Encyclopedia of Parentheses
+ * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_b
+ * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57336417
+ * Difficulty: 3
  * **/
 
 #include <iostream>
@@ -43,16 +43,52 @@ const int MOD = 998244353;
 const ll dx[4] = {0, 1, 0, -1};
 const ll dy[4] = {1, 0, -1, 0};
 
+bool judge(string BR)
+{
+    int cnt = 0;
+    rep(i, int(BR.size()))
+    {
+        if (BR[i] == '(')
+        {
+            cnt++;
+        }
+        else
+        {
+            cnt--;
+        }
+        if (cnt < 0)
+            return false;
+    }
+    if (cnt != 0)
+    {
+        return false;
+    }
+    return true;
+}
+
 void Ayuphys_solve(void)
 {
-    int N, K;
-    cin >> N >> K;
-    vector<int> A(N);
-    rep(i, N) cin >> A[i];
-    FOR(i, N - K, N - 1)
-    cout << A[i] << " ";
-    FOR(i, 0, N - K - 1)
-    cout << A[i] << " ";
+    int N;
+    cin >> N;
+    for (int i = 0; i < (1 << N); i++)
+    {
+        string br = "";
+        rep(j, N)
+        {
+            if ((i & (1 << (N - 1 - j))) == 0)
+            {
+                br += "(";
+            }
+            else
+            {
+                br += ")";
+            }
+        }
+        if (judge(br))
+        {
+            cout << br << endl;
+        }
+    }
     return;
 }
 

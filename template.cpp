@@ -43,18 +43,6 @@ const int MOD = 998244353;
 const ll dx[4] = {0, 1, 0, -1};
 const ll dy[4] = {1, 0, -1, 0};
 
-template <typename T>
-inline bool chmax(T &a, T b)
-{
-    return ((a < b) ? (a = b, true) : (false));
-};
-
-template <typename T>
-inline bool chmin(T &a, T b)
-{
-    return ((a > b) ? (a = b, true) : (false));
-};
-
 void Ayuphys_solve(void)
 {
     // code
