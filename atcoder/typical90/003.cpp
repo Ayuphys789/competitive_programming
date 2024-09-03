@@ -1,5 +1,5 @@
-#include "../../template/template.hpp"
 #include "../../library/tree/tree_diameter.hpp"
+#include "../../template/template.hpp"
 
 void Ayuphys_solve(void)
 {
