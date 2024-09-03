@@ -1,4 +1,4 @@
-#include "../../template/template.hpp"
+#include "/home/ayuphys789/competitive_programming/template/template.hpp"
 
 void Ayuphys_solve(void)
 {

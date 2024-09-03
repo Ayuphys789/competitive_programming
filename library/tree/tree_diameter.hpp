@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../graph/graph_template.hpp"
+#include "/home/ayuphys789/competitive_programming/library/graph/graph_template.hpp"
 
 template <typename T = int>
 struct TreeDiameter : Graph<T>

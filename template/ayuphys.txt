@@ -1,6 +1,6 @@
 void Ayuphys_solve(void)
 {
-	// code
+	${1:// code}
 	return;
 }
 
