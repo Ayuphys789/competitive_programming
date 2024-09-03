@@ -1,9 +1,11 @@
-void Ayuphys_solve(void) {
+void Ayuphys_solve(void)
+{
 	// code
 	return;
 }
 
-int main(void) {
+int main(void)
+{
 	std::cin.tie(nullptr);
 	std::ios_base::sync_with_stdio(false);
 
