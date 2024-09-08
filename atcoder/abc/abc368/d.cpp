@@ -1,3 +1,12 @@
+/**
+ * Author: Ayuphys
+ * Problem Number:
+ * Title:
+ * Link to the Problem:
+ * Link to the Submission:
+ * Difficulty:
+ */
+
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
 
 void Ayuphys_solve(void)
