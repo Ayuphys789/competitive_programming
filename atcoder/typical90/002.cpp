@@ -1,3 +1,11 @@
+/**
+ * Author: Ayuphys
+ * Problem Number: typical90-002
+ * Title: Encyclopedia of Parentheses
+ * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_b
+ * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57336417
+ * Difficulty: 3
+ */
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
 
 bool judge(string BR)

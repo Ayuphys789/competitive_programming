@@ -1,3 +1,12 @@
+/**
+ * Author: Ayuphys
+ * Problem Number: typical90-001
+ * Title: Yokan Party
+ * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_a
+ * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57336057
+ * Difficulty: 4
+ */
+
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
 
 int N;

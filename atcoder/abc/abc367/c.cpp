@@ -1,10 +1,10 @@
 /**
  * Author: Ayuphys
- * Problem Number:
- * Title:
- * Link to the Problem:
- * Link to the Submission:
- * Difficulty:
+ * Problem Number: ABC367-C
+ * Title: Enumerate Seqences
+ * Link to the Problem: https://atcoder.jp/contests/abc367/tasks/abc367_c
+ * Link to the Submission: https://atcoder.jp/contests/abc367/submissions/57583380
+ * Difficulty: 234
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
