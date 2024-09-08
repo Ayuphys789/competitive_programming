@@ -1,10 +1,10 @@
 /**
  * Author: Ayuphys
- * Problem Number:
- * Title:
- * Link to the Problem:
- * Link to the Submission:
- * Difficulty:
+ * Problem Number: typical90-010
+ * Title: Scores Sum Queries
+ * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_j
+ * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57592248
+ * Difficulty: 2
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

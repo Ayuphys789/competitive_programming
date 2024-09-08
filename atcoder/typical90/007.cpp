@@ -1,10 +1,10 @@
 /**
  * Author: Ayuphys
- * Problem Number:
- * Title:
- * Link to the Problem:
- * Link to the Submission:
- * Difficulty:
+ * Problem Number: typical90-007
+ * Title: CP Classes
+ * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_g
+ * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57587446
+ * Difficulty: 3
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

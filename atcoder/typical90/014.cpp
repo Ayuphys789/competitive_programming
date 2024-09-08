@@ -1,6 +1,6 @@
 /**
  * Author: Ayuphys
- * Problem Number: typical90/014
+ * Problem Number: typical90-014
  * Title: We Used to Sing a Song Together
  * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_n
  * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57592370
