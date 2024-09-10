@@ -14,6 +14,6 @@ int const INF = 2147483647;
 ll const INFLL = 1000000000000000000;
 int const NIL = -1;
 int const MOD = 998244353;
-// const int MOD = 1000000007;
+const int MOD7 = 1000000007;
 ll const dx[4] = {0, 1, 0, -1};
 ll const dy[4] = {1, 0, -1, 0};
