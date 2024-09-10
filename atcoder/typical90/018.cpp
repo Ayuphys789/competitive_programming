@@ -1,6 +1,6 @@
 /**
  * Author: Ayuphys
- * Problem Number: Typical90-018
+ * Problem Number: typical90-018
  * Title: Statue of Chokudai
  * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_r
  * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57621589
