@@ -1,10 +1,10 @@
 /**
  * Author: Ayuphys
- * Problem Number:
- * Title:
- * Link to the Problem:
- * Link to the Submission:
- * Difficulty:
+ * Problem Number: typical90-038
+ * Title: Large LCM
+ * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_al
+ * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57623986
+ * Difficulty: 3
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
