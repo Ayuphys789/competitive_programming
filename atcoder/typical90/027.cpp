@@ -2,7 +2,7 @@
  * Author: Ayuphys
  * Problem Number: typical90-027
  * Title: Sign Up Requests
- * Link to the Problem: https://atcoder.jp/contests/typical90/submissions/me
+ * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_aa
  * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/57623705
  * Difficulty: 2
  */
