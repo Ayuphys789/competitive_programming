@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+typedef long double ld;
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define REP(i, n) for (int i = 1; i <= (int)(n); i++)
 #define FOR(i, a, b) for (int i = a; i <= b; i++)
