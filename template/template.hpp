@@ -10,10 +10,10 @@ typedef long double ld;
 #define fcout cout << fixed << setprecision(15)
 #define PI \
 	3.1415926535897932384626433832795028841971693993751058209749445923078160628620899
-int const INF = 2147483647;
-ll const INFLL = 1000000000000000000;
+long long const INF = 2147483647;
+long long const INFLL = 1000000000000000000;
 int const NIL = -1;
-int const MOD = 998244353;
-const int MOD7 = 1000000007;
-ll const dx[4] = {0, 1, 0, -1};
-ll const dy[4] = {1, 0, -1, 0};
+long long const MOD = 998244353;
+const long long MOD7 = 1000000007;
+int const dx[4] = {0, 1, 0, -1};
+int const dy[4] = {1, 0, -1, 0};
