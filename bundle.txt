@@ -1,0 +1,1 @@
+oj-bundle /home/ayuphys789/competitive_programming/atcoder/typical90/084.cpp | grep -v '^#line ' | cat -s | sed -e '1{/^$/d}'  > /home/ayuphys789/competitive_programming/submit.cpp
