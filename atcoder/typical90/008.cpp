@@ -1,10 +1,10 @@
 /**
  * Author: Ayuphys
- * Problem Number:
- * Title:
- * Link to the Problem:
- * Link to the Submission:
- * Difficulty:
+ * Problem Number: typical90-008
+ * Title: AtCounter
+ * Link to the Problem: https://atcoder.jp/contests/typical90/tasks/typical90_h
+ * Link to the Submission: https://atcoder.jp/contests/typical90/submissions/60968164
+ * Difficulty: 4
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
