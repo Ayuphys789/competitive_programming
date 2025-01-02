@@ -12,8 +12,8 @@ typedef long double ld;
 #define fcout cout << fixed << setprecision(15)
 #define PI \
 	3.1415926535897932384626433832795028841971693993751058209749445923078160628620899
-long long const INF = 2147483647;
-long long const INFLL = 1000000000000000000;
+int const INF = numeric_limits<int>::max();
+long long const INFLL = numeric_limits<long long>::max();
 int const NIL = -1;
 long long const MOD = 998244353;
 const long long MOD7 = 1000000007;
