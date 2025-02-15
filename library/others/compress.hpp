@@ -1,5 +1,6 @@
 #pragma once
 
+// Compress
 // verfied with: "/atcoder/typical90/029-01.cpp"
 
 template <typename T>

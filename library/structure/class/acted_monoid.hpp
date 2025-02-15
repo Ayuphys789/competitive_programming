@@ -1,5 +1,6 @@
 #pragma once
 
+// Acted Monoid
 // required by: "/library/structure/segment_tree/lazy_segment_tree.hpp"
 
 template <typename S2, typename Op, typename E, typename F2, typename Mapping,

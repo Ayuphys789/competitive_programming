@@ -1,5 +1,6 @@
 #pragma once
 
+// Monoid
 // required by: "/library/structure/segment_tree/segment_tree.hpp"
 
 template <typename S2, typename Op, typename E>

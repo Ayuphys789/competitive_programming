@@ -1,5 +1,6 @@
 #pragma once
 
+// Lazy Segment Tree
 // verfied with: "/atcoder/typical90/029-02.cpp"
 
 #include "/home/ayuphys789/competitive_programming/library/structure/class/acted_monoid.hpp"
