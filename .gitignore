@@ -1,0 +1,5 @@
+*.json
+program
+.vscode
+submit.cpp
+*.txt
