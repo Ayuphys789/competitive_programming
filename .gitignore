@@ -1,5 +1,9 @@
+*
+!*.*
+!*/
+!LICENCE
 *.json
-program
+*.txt
+configs/*
 .vscode
 submit.cpp
-*.txt
