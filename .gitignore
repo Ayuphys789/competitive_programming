@@ -2,4 +2,4 @@
 program
 .vscode
 submit.cpp
-.txt
+*.txt
