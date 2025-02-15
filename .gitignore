@@ -1,9 +1,0 @@
-*
-!*.*
-!*/
-!LICENCE
-*.json
-*.txt
-configs/*
-.vscode
-submit.cpp
