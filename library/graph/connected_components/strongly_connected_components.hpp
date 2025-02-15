@@ -1,5 +1,7 @@
 #pragma once
 
+// verified with: "/atcoder/typical90/021.cpp"
+
 #include "/home/ayuphys789/competitive_programming/library/graph/graph_template.hpp"
 
 template <typename T = int>
