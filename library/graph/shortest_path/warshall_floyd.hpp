@@ -1,6 +1,6 @@
 #pragma once
 
-// verified with:
+// verified with: "/atcoder/typical90/087.cpp"
 // Warshall-Floyd
 
 template <typename Matrix, typename T>
