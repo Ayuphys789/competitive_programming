@@ -1,5 +1,7 @@
 #pragma once
 
+// verified with: "/aoj/cgl/cgl3/a.cpp"
+
 #include "/home/ayuphys789/competitive_programming/library/geometry/point.hpp"
 #include "/home/ayuphys789/competitive_programming/library/geometry/polygon.hpp"
 
