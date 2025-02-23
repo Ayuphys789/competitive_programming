@@ -16,7 +16,7 @@ namespace geometry
 
     ostream &operator<<(ostream &os, const Point &p)
     {
-        return os << fixed << setprecision(15) << real(p) << " " << fixed << setprecision(15) << imag(p);
+        return os << real(p) << " " << imag(p);
     }
 
     Point operator*(const Point &p, const Real &d)

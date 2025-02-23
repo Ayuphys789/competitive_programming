@@ -10,6 +10,7 @@ typedef long double ld;
 #define rFOR(i, a, b) for (int i = a; i >= b; i--)
 #define all(x) x.begin(), x.end()
 #define fcout cout << fixed << setprecision(15)
+#define Fcout(n) cout << fixed << setprecision(n)
 #define PI \
 	3.1415926535897932384626433832795028841971693993751058209749445923078160628620899
 int const INF = numeric_limits<int>::max();

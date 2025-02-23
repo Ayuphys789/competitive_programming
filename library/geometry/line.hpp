@@ -39,7 +39,7 @@ namespace geometry
 
         friend ostream &operator<<(ostream &os, Line &l)
         {
-            return os << fixed << setprecision(15) << l.a << " to " << fixed << setprecision(15) << l.b;
+            return os << l.a << " to " << l.b;
         }
 
         friend istream &operator>>(istream &is, Line &l) { return is >> l.a >> l.b; }
