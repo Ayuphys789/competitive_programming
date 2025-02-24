@@ -6,6 +6,7 @@ namespace geometry
 {
     using Real = double;
     const Real EPS = 1e-8;
+    const Real INFReal = 1e18;
 
     enum
     {
