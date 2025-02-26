@@ -1,6 +1,8 @@
 #pragma once
 
-bool range_check(int H, int W, int x, int y)
+// verified with: "/atcoder/abc/abc096/c.cpp"
+
+bool range_check(int x, int y, int H, int W)
 {
     bool ret = true;
     if (x < 0 || x >= H || y < 0 || y >= W)

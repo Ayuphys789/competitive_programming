@@ -22,7 +22,7 @@ struct eratosthenes
             if (is_prime[i])
             {
                 ++num_factor[i];
-                prime_list.push_back(i);
+                prime_list.emplace_back(i);
                 for (int j = 2 * i; j <= n; j += i)
                 {
                     is_prime[j] = 0;
