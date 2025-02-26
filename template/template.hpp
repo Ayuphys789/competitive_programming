@@ -20,3 +20,5 @@ long long const MOD = 998244353;
 const long long MOD7 = 1000000007;
 int const dx[4] = {0, 1, 0, -1};
 int const dy[4] = {1, 0, -1, 0};
+#include "/home/ayuphys789/competitive_programming/library/others/chmin.hpp"
+#include "/home/ayuphys789/competitive_programming/library/others/chmax.hpp"
