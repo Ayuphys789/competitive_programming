@@ -52,7 +52,7 @@ struct UnionFind
         return siz[root(x)];
     }
 
-    int connected_num()
+    int connected_components_number()
     {
         return num_c;
     }
