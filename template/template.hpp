@@ -11,6 +11,12 @@ typedef long double ld;
 #define all(x) x.begin(), x.end()
 #define fcout cout << fixed << setprecision(15)
 #define Fcout(n) cout << fixed << setprecision(n)
+#define OUT(x) cout << x << endl;
+#define OUTV(x)                               \
+	rep(i, x.size()) { cout << x[i] << " "; } \
+	cout << endl;
+#define fOUT(x) fcout << x << endl;
+#define FOUT(x, n) Fcout(n) << x << endl;
 #define PI \
 	3.1415926535897932384626433832795028841971693993751058209749445923078160628620899
 int const INF = numeric_limits<int>::max();
@@ -18,7 +24,7 @@ long long const INFLL = numeric_limits<long long>::max();
 int const NIL = -1;
 long long const MOD = 998244353;
 const long long MOD7 = 1000000007;
-int const dx[4] = {0, 1, 0, -1};
-int const dy[4] = {1, 0, -1, 0};
+int const dx[8] = {0, 1, 0, -1, 1, 1, -1, -1};
+int const dy[8] = {1, 0, -1, 0, 1, -1, 1, -1};
 #include "/home/ayuphys789/competitive_programming/library/others/chmin.hpp"
 #include "/home/ayuphys789/competitive_programming/library/others/chmax.hpp"
