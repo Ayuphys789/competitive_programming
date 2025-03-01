@@ -12,6 +12,7 @@ typedef long double ld;
 #define fcout cout << fixed << setprecision(15)
 #define Fcout(n) cout << fixed << setprecision(n)
 #define OUT(x) cout << x << endl;
+#define NOUT(x) cout << x;
 #define VOUT(x)                               \
 	rep(i, x.size()) { cout << x[i] << " "; } \
 	cout << endl;
