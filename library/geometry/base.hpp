@@ -4,15 +4,16 @@
 
 namespace geometry
 {
-    using Real = double;
+    using Real = long double;
+    // using Real = double;
     const Real EPS = 1e-8;
     const Real INFReal = 1e18;
 
     enum
     {
-        OUT,
-        ON,
-        IN
+        OUT_geo,
+        ON_geo,
+        IN_geo
     };
 
     inline int sign(const Real &r) { return r <= -EPS ? -1 : r >= EPS ? 1

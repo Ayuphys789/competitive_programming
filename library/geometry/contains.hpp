@@ -19,8 +19,8 @@ namespace geometry
             if (sign(imag(a)) <= 0 && 0 < sign(imag(b)) && sign(cross(a, b)) < 0)
                 in = !in;
             if (equals(cross(a, b), 0) && sign(dot(a, b)) <= 0)
-                return ON;
+                return ON_geo;
         }
-        return in ? IN : OUT;
+        return in ? IN_geo : OUT_geo;
     }
 }
