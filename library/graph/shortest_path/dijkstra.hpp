@@ -33,7 +33,7 @@ ShortestPath<T> dijkstra(const Graph<T> &g, int s)
         }
         for (auto &e : g[idx])
         {
-            int new_cost = dist[idx] + e.cost;
+            T new_cost = dist[idx] + e.cost;
             if (new_cost < dist[e.to])
             {
                 dist[e.to] = new_cost;
