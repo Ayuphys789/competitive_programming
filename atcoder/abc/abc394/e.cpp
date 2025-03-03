@@ -3,7 +3,7 @@
  * Problem Number: abc394-e
  * Title: Palindromic Shortest Path
  * Link to the Problem: https://atcoder.jp/contests/abc394/tasks/abc394_e
- * Link to the Submission: https://atcoder.jp/contests/abc394/submissions/63369796
+ * Link to the Submission: https://atcoder.jp/contests/abc394/submissions/63369907
  * Difficulty: 1403
  */
 
@@ -23,18 +23,12 @@ void Ayuphys_solve(void)
         }
     }
 
-    Graph<int> G(N * N + 1);
-
     queue<int> Q;
 
-    int S = N * N;
-    vector<int> dist(N * N + 1, INF);
-
-    dist[S] = 0;
+    vector<int> dist(N * N, INF);
 
     rep(i, N)
     {
-        G.add_directed_edge(S, i * N + i, 0);
         Q.push(i * N + i);
         dist[i * N + i] = 0;
     }
@@ -45,7 +39,6 @@ void Ayuphys_solve(void)
         {
             if (i != j && C[i][j] != '-')
             {
-                G.add_directed_edge(S, i * N + j, 1);
                 Q.push(i * N + j);
                 dist[i * N + j] = 1;
             }
