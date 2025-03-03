@@ -1,56 +1,46 @@
 /**
  * Author: Ayuphys
  * Problem Number: abc377-d
- * Title: Palindromic Number
- * Link to the Problem: https://atcoder.jp/contests/abc363/tasks/abc363_d
- * Link to the Submission: https://atcoder.jp/contests/abc363/submissions/63374473
- * Difficulty: 975
+ * Title: Many Segments 2
+ * Link to the Problem: https://atcoder.jp/contests/abc377/tasks/abc377_d
+ * Link to the Submission: https://atcoder.jp/contests/abc377/submissions/63374572
+ * Difficulty: 987
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
 
 void Ayuphys_solve(void)
 {
-    ll N;
-    cin >> N;
-    if (N == 1)
+    ll N, M;
+    cin >> N >> M;
+    vector<int> L(N), R(N);
+    vector<int> D(M, INF);
+    rep(i, N)
     {
-        OUT(0);
-        return;
-    }
-    N -= 1;
-    ll digit = 1;
-
-    vector<ll> pow_10(20);
-    pow_10[0] = 1;
-    FOR(i, 1, 18)
-    {
-        pow_10[i] = pow_10[i - 1] * 10;
+        cin >> L[i] >> R[i];
+        --L[i];
+        --R[i];
+        chmin(D[L[i]], R[i]);
     }
 
-    while (N > 0)
+    ll cnt = 0;
+
+    rFOR(i, M - 2, 0)
     {
-        ll x = (digit + 1) / 2;
-        ll max_num = 9 * pow_10[x - 1];
-        if (N > max_num)
+        chmin(D[i], D[i + 1]);
+    }
+
+    rep(i, M)
+    {
+        if (D[i] < INF)
         {
-            N -= max_num;
-            ++digit;
-            continue;
+            cnt += M - D[i];
         }
-        N += pow_10[x - 1] - 1;
-        string S = to_string(N), T = S;
-        reverse(all(T));
-        if (digit % 2)
-        {
-            S = S.substr(0, S.size() - 1);
-        }
-        NOUT(S);
-        OUT(T);
-        // OUT(N);
-
-        break;
     }
+
+    ll Ans = M * (M + 1) / 2 - cnt;
+
+    OUT(Ans);
     return;
 }
 
