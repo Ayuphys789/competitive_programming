@@ -18,6 +18,8 @@ typedef long double ld;
 #define VOUT(x)                      \
 	rep(i, x.size()) { SOUT(x[i]); } \
 	ENDL;
+#define VEOUT(x) \
+	rep(i, x.size()) { OUT(x[i]); }
 #define VVOUT(x) \
 	rep(j, x.size()) { VOUT(x[j]); }
 #define fOUT(x) fcout << x << endl;

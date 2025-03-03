@@ -76,4 +76,9 @@ public:
         }
         return i;
     }
+
+    T get(int k) const
+    {
+        return data[k];
+    }
 };
