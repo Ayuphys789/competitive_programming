@@ -1,6 +1,7 @@
 #pragma once
 
 // verified with: "/atcoder/typical90/005_02.cpp"
+// verified with: "/atcoder/abc/abc280/e.cpp"
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
 
