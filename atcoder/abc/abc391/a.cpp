@@ -1,10 +1,10 @@
 /**
  * Author: Ayuphys
- * Problem Number:
- * Title:
- * Link to the Problem:
- * Link to the Submission:
- * Difficulty:
+ * Problem Number: abc391-a
+ * Title: Lucky Direction
+ * Link to the Problem: https://atcoder.jp/contests/abc391/tasks/abc391_a
+ * Link to the Submission: https://atcoder.jp/contests/abc391/submissions/63710771
+ * Difficulty: 10
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
