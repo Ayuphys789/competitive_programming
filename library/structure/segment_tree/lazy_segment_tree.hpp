@@ -1,7 +1,12 @@
 #pragma once
 
 // Lazy Segment Tree
-// verfied with: "/atcoder/typical90/029-02.cpp"
+// verified with: "/atcoder/typical90/029-02.cpp"
+// verified with : "/aoj/dsl/dsl2/e.cpp"
+// verified with : "/aoj/dsl/dsl2/f.cpp"
+// verified with : "/aoj/dsl/dsl2/g.cpp"
+// verified with : "/aoj/dsl/dsl2/h.cpp"
+// verified with : "/aoj/dsl/dsl2/i.cpp"
 
 #include "/home/ayuphys789/competitive_programming/library/structure/class/acted_monoid.hpp"
 

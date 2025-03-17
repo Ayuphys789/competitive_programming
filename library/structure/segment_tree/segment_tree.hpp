@@ -2,6 +2,7 @@
 
 // Segment Tree
 // verified with: "/aoj/dsl/dsl2/a.cpp"
+// verified with: "/aoj/dsl/dsl2/b.cpp"
 // verified with: "/atcoder/typical90/037.cpp"
 
 #include "/home/ayuphys789/competitive_programming/library/structure/class/monoid.hpp"
