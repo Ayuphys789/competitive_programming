@@ -15,13 +15,20 @@ typedef long double ld;
 #define ENDL cout << endl;
 #define NOUT(x) cout << x;
 #define SOUT(x) cout << x << " ";
-#define VOUT(x)                      \
-	rep(i, x.size()) { SOUT(x[i]); } \
+#define VOUT(x)                                    \
+	rep(counter1, x.size()) { SOUT(x[counter1]); } \
 	ENDL;
 #define VEOUT(x) \
-	rep(i, x.size()) { OUT(x[i]); }
+	rep(counter1, x.size()) { OUT(x[counter1]); }
 #define VVOUT(x) \
-	rep(j, x.size()) { VOUT(x[j]); }
+	rep(counter2, x.size()) { VOUT(x[counter2]); }
+#define GOUT(x)             \
+	rep(counter3, G.size()) \
+	{                       \
+		SOUT(counter3);     \
+		SOUT("->");         \
+		VOUT(G[counter3]);  \
+	}
 #define fOUT(x) fcout << x << endl;
 #define FOUT(x, n) Fcout(n) << x << endl;
 #define PI \
