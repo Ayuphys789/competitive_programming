@@ -4,6 +4,8 @@
 using namespace std;
 typedef long long ll;
 typedef long double ld;
+#define YesNo(ok) cout << ((bool)(ok) ? "Yes" : "No") << endl;
+#define YESNO(ok) cout << ((bool)(ok) ? "YES" : "NO") << endl;
 #define rep(i, n) for (int i = 0; i < (int)(n); i++)
 #define REP(i, n) for (int i = 1; i <= (int)(n); i++)
 #define FOR(i, a, b) for (int i = a; i <= b; i++)
@@ -35,6 +37,8 @@ typedef long double ld;
 	3.1415926535897932384626433832795028841971693993751058209749445923078160628620899
 int const INF = numeric_limits<int>::max();
 long long const INFLL = numeric_limits<long long>::max();
+const double INFD = numeric_limits<double>::max();
+const double INFLD = numeric_limits<long double>::max();
 int const NIL = -1;
 long long const MOD = 998244353;
 const long long MOD7 = 1000000007;
