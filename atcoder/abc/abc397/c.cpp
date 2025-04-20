@@ -1,10 +1,10 @@
 /**
  * Author: Ayuphys
- * Problem Number:
- * Title:
- * Link to the Problem:
- * Link to the Submission:
- * Difficulty:
+ * Problem Number: abc397-c
+ * Title: Variety Split Easy
+ * Link to the Problem: https://atcoder.jp/contests/abc397/tasks/abc397_c
+ * Link to the Submission: https://atcoder.jp/contests/abc397/submissions/63806988
+ * Difficulty: 341
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

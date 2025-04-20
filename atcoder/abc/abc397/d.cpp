@@ -1,47 +1,53 @@
 /**
  * Author: Ayuphys
- * Problem Number:
- * Title:
- * Link to the Problem:
- * Link to the Submission:
- * Difficulty:
+ * Problem Number: abc397-d
+ * Title: Cubes
+ * Link to the Problem: https://atcoder.jp/contests/abc397/tasks/abc397_d
+ * Link to the Submission: https://atcoder.jp/contests/abc397/submissions/63801898
+ * Difficulty: 1209
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
+#include "/home/ayuphys789/competitive_programming/library/math/number_theory/divisor.hpp"
 
 void Ayuphys_solve(void)
 {
     ll N;
     cin >> N;
-    vector<ll> V;
-    int M = 1259922;
     REP(i, 1000000)
     {
-        ll I = i;
-        ll val = I * I * I;
-        V.emplace_back(val);
-    }
-    bool ok = 0;
-    rep(i, M)
-    {
-        int id = lower_bound(all(V), V[i] + N) - V.begin();
-        // cout << V[i] << " " << V[id] << endl;
-        if (id == M)
+        ll val1 = i;
+        if (N % i != 0)
+        {
+            continue;
+        }
+        ll val2 = N / val1;
+        if (val2 < val1 * val1)
         {
             break;
         }
-        if (V[id] == V[i] + N)
+        val2 -= val1 * val1;
+        if (val2 <= 0)
         {
-            ok = 1;
-            SOUT(id);
-            OUT(i);
+            continue;
+        }
+        if (val2 % 3 != 0)
+        {
+            continue;
+        }
+        val2 /= 3;
+        // cout << val1 << " " << val2 << endl;
+        double y = (-val1 + sqrt(val1 * val1 + 4 * val2)) / 2;
+        // fOUT(y);
+        ll Y = (ll)round(y);
+        if (Y * Y + Y * val1 == val2)
+        {
+            SOUT(val1 + Y);
+            OUT(Y);
             return;
         }
     }
-    if (!ok)
-    {
-        OUT(-1);
-    }
+    OUT(-1);
     return;
 }
 
