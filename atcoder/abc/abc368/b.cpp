@@ -1,10 +1,10 @@
 /**
  * Author: Ayuphys
- * Problem Number:
- * Title:
- * Link to the Problem:
- * Link to the Submission:
- * Difficulty:
+ * Problem Number: abc368-b
+ * Title: Decrease 2 max elements
+ * Link to the Problem: https://atcoder.jp/contests/abc368/tasks/abc368_b
+ * Link to the Submission: https://atcoder.jp/contests/abc368/submissions/57256692
+ * Difficulty: 56
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
