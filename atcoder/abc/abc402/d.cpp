@@ -4,7 +4,7 @@
  * Title: Line Crossing
  * Link to the Problem: https://atcoder.jp/contests/abc402/tasks/abc402_d
  * Link to the Submission: https://atcoder.jp/contests/abc402/submissions/65020790
- * Difficulty: ?
+ * Difficulty: 940
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

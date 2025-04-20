@@ -4,7 +4,7 @@
  * Title: Restaurant Queue
  * Link to the Problem: https://atcoder.jp/contests/abc402/tasks/abc402_b
  * Link to the Submission: https://atcoder.jp/contests/abc402/submissions/65001788
- * Difficulty: ?
+ * Difficulty: 88
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

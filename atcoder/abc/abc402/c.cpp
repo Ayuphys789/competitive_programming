@@ -4,7 +4,7 @@
  * Title: Dislike Foods
  * Link to the Problem: https://atcoder.jp/contests/abc402/tasks/abc402_c
  * Link to the Submission: https://atcoder.jp/contests/abc402/submissions/65006654
- * Difficulty: ?
+ * Difficulty: 499
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

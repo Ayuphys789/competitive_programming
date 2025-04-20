@@ -4,7 +4,7 @@
  * Title: Path to Integer
  * Link to the Problem: https://atcoder.jp/contests/abc402/tasks/abc402_f
  * Link to the Submission: https://atcoder.jp/contests/abc402/submissions/65033515
- * Difficulty: ?
+ * Difficulty: 1665
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

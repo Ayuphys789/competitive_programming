@@ -4,7 +4,7 @@
  * Title: CBC
  * Link to the Problem: https://atcoder.jp/contests/abc402/tasks/abc402_a
  * Link to the Submission: https://atcoder.jp/contests/abc402/submissions/64998830
- * Difficulty: ?
+ * Difficulty: 41
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
