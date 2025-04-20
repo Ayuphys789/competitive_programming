@@ -4,7 +4,7 @@
  * Title: Add One Edge 3
  * Link to the Problem: https://atcoder.jp/contests/abc401/tasks/abc401_f
  * Link to the Submission: https://atcoder.jp/contests/abc401/submissions/64775378
- * Difficulty: ?
+ * Difficulty: 1677
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

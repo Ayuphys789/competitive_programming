@@ -4,7 +4,7 @@
  * Title: Status Code
  * Link to the Problem: https://atcoder.jp/contests/abc401/tasks/abc401_a
  * Link to the Submission: https://atcoder.jp/contests/abc401/submissions/64725202
- * Difficulty: ?
+ * Difficulty: 45
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

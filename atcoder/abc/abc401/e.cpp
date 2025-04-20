@@ -4,7 +4,7 @@
  * Title: Reachable Set
  * Link to the Problem: https://atcoder.jp/contests/abc401/tasks/abc401_e
  * Link to the Submission: https://atcoder.jp/contests/abc401/submissions/64870192
- * Difficulty: ?
+ * Difficulty: 1333
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

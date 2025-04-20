@@ -4,7 +4,7 @@
  * Title: Logical Filling
  * Link to the Problem: https://atcoder.jp/contests/abc401/tasks/abc401_d
  * Link to the Submission: https://atcoder.jp/contests/abc401/submissions/64783938
- * Difficulty: ?
+ * Difficulty: 1227
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

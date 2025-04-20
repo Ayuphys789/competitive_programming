@@ -4,7 +4,7 @@
  * Title: Unauthorized
  * Link to the Problem: https://atcoder.jp/contests/abc401/tasks/abc401_b
  * Link to the Submission: https://atcoder.jp/contests/abc401/submissions/64736967
- * Difficulty: ?
+ * Difficulty: 79
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
