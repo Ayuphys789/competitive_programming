@@ -4,7 +4,7 @@
  * Title: Tree Game
  * Link to the Problem: https://atcoder.jp/contests/abc398/tasks/abc398_e
  * Link to the Submission: https://atcoder.jp/contests/abc398/submissions/64718725
- * Difficulty: ?
+ * Difficulty: 1295
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

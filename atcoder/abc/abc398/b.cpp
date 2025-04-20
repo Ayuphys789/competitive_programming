@@ -4,7 +4,7 @@
  * Title: Full House 3
  * Link to the Problem: https://atcoder.jp/contests/abc398/tasks/abc398_b
  * Link to the Submission: https://atcoder.jp/contests/abc398/submissions/64717687
- * Difficulty: ?
+ * Difficulty: 149
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

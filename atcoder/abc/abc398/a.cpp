@@ -4,7 +4,7 @@
  * Title: Doors in the Center
  * Link to the Problem: https://atcoder.jp/contests/abc398/tasks/abc398_a
  * Link to the Submission: https://atcoder.jp/contests/abc398/submissions/64717628
- * Difficulty: ?
+ * Difficulty: 56
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

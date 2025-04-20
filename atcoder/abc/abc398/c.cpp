@@ -4,7 +4,7 @@
  * Title: Uniqueness
  * Link to the Problem: https://atcoder.jp/contests/abc398/tasks/abc398_c
  * Link to the Submission: https://atcoder.jp/contests/abc398/submissions/64717808
- * Difficulty: ?
+ * Difficulty: 238
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
