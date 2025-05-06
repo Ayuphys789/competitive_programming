@@ -41,5 +41,10 @@ struct Compress
         return lower_bound(begin(xs), end(xs), x) - begin(xs);
     }
 
+    int size() const
+    {
+        return (int)xs.size();
+    }
+
     const T &operator[](int k) const { return xs[k]; }
 };
