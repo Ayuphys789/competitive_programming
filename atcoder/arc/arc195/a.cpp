@@ -4,7 +4,7 @@
  * Title: Twice Subseqence
  * Link to the Problem: https://atcoder.jp/contests/arc195/tasks/arc195_a
  * Link to the Submission: https://atcoder.jp/contests/arc195/submissions/64136108
- * Difficulty: ?
+ * Difficulty: 538
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

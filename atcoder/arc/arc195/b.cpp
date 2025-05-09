@@ -4,7 +4,7 @@
  * Title: Uniform Sum
  * Link to the Problem: https://atcoder.jp/contests/arc195/tasks/arc195_b
  * Link to the Submission: https://atcoder.jp/contests/arc195/submissions/64144887
- * Difficulty: ?
+ * Difficulty: 1433
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"

@@ -4,7 +4,7 @@
  * Title: Hamiltonian Pieces
  * Link to the Problem: https://atcoder.jp/contests/arc195/tasks/arc195_c
  * Link to the Submission: https://atcoder.jp/contests/arc195/submissions/64140765
- * Difficulty: ?
+ * Difficulty: 1777
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
