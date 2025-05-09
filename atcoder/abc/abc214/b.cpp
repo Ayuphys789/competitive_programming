@@ -1,10 +1,10 @@
 /**
  * Author: Ayuphys
- * Problem Number: abc214-a
- * Title: New Generation ABC
- * Link to the Problem: https://atcoder.jp/contests/abc214/tasks/abc214_a
+ * Problem Number: abc214-b
+ * Title: How many?
+ * Link to the Problem: https://atcoder.jp/contests/abc214/tasks/abc214_b
  * Link to the Submission: https://atcoder.jp/contests/abc214/submissions/65583677
- * Difficulty: 4
+ * Difficulty: 53
  */
 
 #include "/home/ayuphys789/competitive_programming/template/template.hpp"
@@ -13,32 +13,30 @@ struct Ayuphys_solve
 {
     void Run(void)
     {
-        int N;
-        cin >> N;
-        
-        if(N <= 125) 
+        int S, T;
+        cin >> S >> T;
+        int count = 0;
+        FOR(a, 0, S)
+        FOR(b, 0, S)
+        FOR(c, 0, S)
         {
-            OUT(4);
+            int sum = a + b + c;
+            int prod = a * b * c;
+            if (sum <= S && prod <= T)
+            {
+                count += 1;
+            }
         }
-        else if(N <= 211)
-        {
-            OUT(6);
-        }
-        else
-        {
-            OUT(8);
-        }
-        
-        
+        OUT(count);
         return;
     }
 };
-  
+
 int main(void)
 {
     std::cin.tie(nullptr);
     std::ios_base::sync_with_stdio(false);
- 
+
     int testcase_number = 1;
     // cin >> testcase_number;
 

@@ -45,5 +45,7 @@ long long const MOD = 998244353;
 const long long MOD7 = 1000000007;
 int const dx[8] = {0, 1, 0, -1, 1, 1, -1, -1};
 int const dy[8] = {1, 0, -1, 0, 1, -1, 1, -1};
+int const di[8] = {0, 1, 0, -1, 1, 1, -1, -1};
+int const dj[8] = {1, 0, -1, 0, 1, -1, 1, -1};
 #include "/home/ayuphys789/competitive_programming/library/others/chmin.hpp"
 #include "/home/ayuphys789/competitive_programming/library/others/chmax.hpp"
