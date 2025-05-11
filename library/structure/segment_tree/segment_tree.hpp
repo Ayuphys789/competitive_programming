@@ -13,11 +13,10 @@ struct SegmentTree
     using S = typename Monoid::S;
 
 private:
+    Monoid m;
     int n, sz;
 
     vector<S> seg;
-
-    Monoid m;
 
 public:
     SegmentTree() = default;

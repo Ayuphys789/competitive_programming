@@ -16,6 +16,7 @@ typedef __int128_t i128;
 #define Fcout(n) cout << fixed << setprecision(n)
 #define OUT(x) cout << x << endl;
 #define ENDL cout << endl;
+#define LINE cout << "----------------\n";
 #define NOUT(x) cout << x;
 #define SOUT(x) cout << x << " ";
 #define VOUT(x)                                    \
@@ -37,9 +38,13 @@ typedef __int128_t i128;
 #define PI \
 	3.1415926535897932384626433832795028841971693993751058209749445923078160628620899
 int const INF = numeric_limits<int>::max();
+int const mINF = numeric_limits<int>::min();
 long long const INFLL = numeric_limits<long long>::max();
+long long const mINFLL = numeric_limits<long long>::min();
 const double INFD = numeric_limits<double>::max();
+const double mINFD = numeric_limits<double>::min();
 const double INFLD = numeric_limits<long double>::max();
+const double mINFLD = numeric_limits<long double>::min();
 int const NIL = -1;
 long long const MOD = 998244353;
 const long long MOD7 = 1000000007;
