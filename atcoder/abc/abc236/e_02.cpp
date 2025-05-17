@@ -18,6 +18,7 @@ struct Ayuphys_solve
         vector<ll> A(N);
         rep(i, N) cin >> A[i];
         ll left_ave = 0, right_ave = 1.5e9;
+        // 整数の二分探索を誤差を1以下にする O(log(max{A}))
         while (right_ave - left_ave > 1)
         {
             ll mid_ave = left_ave + (right_ave - left_ave) / 2;
@@ -40,6 +41,7 @@ struct Ayuphys_solve
                 left_ave = mid_ave;
             }
         }
+        // 分数の二分探索で厳密解を求める 分母が高々Nだから木の深さ=時間計算量=O(logN)
         ll p = right_ave - 1, q = 1, r = 1, s = 0;
         while (true)
         {
