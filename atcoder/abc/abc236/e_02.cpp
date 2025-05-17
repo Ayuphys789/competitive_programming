@@ -3,7 +3,7 @@
  * Problem Number: abc236-e
  * Title: Average and Median
  * Link to the Problem: https://atcoder.jp/contests/abc236/tasks/abc236_e
- * Link to the Submission: https://atcoder.jp/contests/abc236/submissions/65832962
+ * Link to the Submission: https://atcoder.jp/contests/abc236/submissions/65835063
  * Difficulty: 1893
  */
 
@@ -17,29 +17,55 @@ struct Ayuphys_solve
         cin >> N;
         vector<ll> A(N);
         rep(i, N) cin >> A[i];
-        ll p = 0, q = 1, r = 1, s = 0;
-        while (q + s < 2e3)
+        ll left_ave = 0, right_ave = 1.5e9;
+        while (right_ave - left_ave > 1)
         {
-            ld val = (ld)(p + r) / (ld)(q + s);
-            vector<ld> B(N);
-            rep(i, N) B[i] = (ld)A[i] - val;
-            vector<ld> f(N + 1), g(N + 1);
+            ll mid_ave = left_ave + (right_ave - left_ave) / 2;
+            vector<ll> B(N);
+            rep(i, N) B[i] = A[i] - mid_ave;
+            vector<ll> f(N + 1), g(N + 1);
             f[0] = 0, g[0] = 0;
             rep(i, N)
             {
                 f[i + 1] = max(f[i], g[i]) + B[i];
                 g[i + 1] = f[i];
             }
-            ld judge = max(f[N], g[N]);
+            ll val = max(f[N], g[N]);
+            if (val <= 0)
+            {
+                right_ave = mid_ave;
+            }
+            else
+            {
+                left_ave = mid_ave;
+            }
+        }
+        ll p = right_ave - 1, q = 1, r = 1, s = 0;
+        while (true)
+        {
+            vector<ll> B(N);
+            rep(i, N) B[i] = (q + s) * A[i] - (p + r);
+            vector<ll> f(N + 1), g(N + 1);
+            f[0] = 0, g[0] = 0;
+            rep(i, N)
+            {
+                f[i + 1] = max(f[i], g[i]) + B[i];
+                g[i + 1] = f[i];
+            }
+            ll judge = max(f[N], g[N]);
             if (judge < 0)
             {
                 r += p;
                 s += q;
             }
-            else
+            else if (judge > 0)
             {
                 p += r;
                 q += s;
+            }
+            else
+            {
+                break;
             }
         }
         ll left_med = 0, right_med = 1.5e9;
@@ -64,10 +90,6 @@ struct Ayuphys_solve
             {
                 left_med = mid_med;
             }
-            // OUT(mid_med);
-            // VOUT(B);
-            // VOUT(f);
-            // VOUT(g);
         }
         fOUT((ld)(p + r) / (ld)(q + s));
         OUT(left_med);

@@ -4,6 +4,7 @@
 // verified with: "/aoj/dsl/dsl2/a.cpp"
 // verified with: "/aoj/dsl/dsl2/b.cpp"
 // verified with: "/atcoder/typical90/037.cpp"
+// verified with: "/atcoder/abc/abc245/e.cpp"
 
 #include "/home/ayuphys789/competitive_programming/library/structure/class/monoid.hpp"
 
@@ -91,7 +92,7 @@ public:
     int find_first(int l, const C &check) const
     {
         if (l >= n)
-            return n;
+            return n + 1;
         l += sz;
         S sum = m.e();
         do
@@ -114,7 +115,7 @@ public:
             }
             sum = m.op(sum, seg[l++]);
         } while ((l & -l) != l);
-        return n;
+        return n + 1;
     }
 
     template <typename C>
