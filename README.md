@@ -4,7 +4,7 @@ A personal collection of my solutions and reusable code for competitive programm
 
 ## Profile
 
-- **Author:** [Ayuphys789](https://github.com/Ayuphys789)
+- **Author:** [Ayuphys789](https://github.com/Ayuphys789) (Satoshi Miyake)
 - **Platforms:**
   [![AtCoder](https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fatcoder%2Fjson%2FAyuphys)](https://atcoder.jp/users/Ayuphys)
   [![Codeforces](https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fcodeforces%2Fjson%2FAyuphys)](https://codeforces.com/profile/Ayuphys)
