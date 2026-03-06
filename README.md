@@ -1,21 +1,52 @@
-# Competitive Programming Solutions and Library
+# 🏆 Competitive Programming Library & Solutions
 
-A personal collection of my solutions and reusable code for competitive programming challenges.
+競技プログラミング（AtCoder, Codeforcesなど）の解答コードと、自作のアルゴリズムライブラリを管理するリポジトリです。
+C++ を主に使用しています。
 
 ## Profile
 
 - **Author:** [Ayuphys789](https://github.com/Ayuphys789) (Satoshi Miyake)
-- **Platforms:**
-  [![AtCoder](https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fatcoder%2Fjson%2FAyuphys)](https://atcoder.jp/users/Ayuphys)
-  [![Codeforces](https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fcodeforces%2Fjson%2FAyuphys)](https://codeforces.com/profile/Ayuphys)
+
+## 📊 Achievements
+
+### Ratings & Accounts
+| Platform | ID | Max Rating | Rank |
+| :--- | :--- | :--- | :--- |
+| **AtCoder** | [Ayuphys](https://atcoder.jp/users/Ayuphys) | **1499** | Cyan |
+| **Codeforces** | [Ayuphys](https://codeforces.com/profile/Ayuphys) | **1660** | Blue |
+
+### Awards
+* **日本情報オリンピック**: 本選出場
+* **パソコン甲子園プログラミング部門**: 本選出場
+  
+## 📚 My Library
+
+テンプレート化・ライブラリ化したライブラリも公開しています。
+
+### 📂 Directory Structure
+```text
+.
+├── atcoder/           # AtCoder の解答コード
+├── codeforces/        # Codeforces の解答コード
+├── library/           # 自作ライブラリ
+│   ├── dp/            # 動的計画法 (累積和, LIS)
+│   ├── geometry/      # 幾何 (凸包, 交叉判定, etc.)
+│   ├── math/          # 数論・組み合わせ (ModInt, FFT, Matrix, etc.)
+│   ├── graph/         # グラフ理論 (Dijkstra, SCC, MaxFlow, etc.)
+│   ├── structure/     # データ構造 (SegmentTree, UnionFind, etc.)
+│   ├── string/        # 文字列 (ローリングハッシュ, etc.)
+│   ├── tree/          # 木 (直径, オイラーツアー, etc,)
+│   └── others/        # その他 (座標圧縮, etc.)
+└── templates/         # コンテスト用テンプレート
+```
 
 ## License
 
-This repository is available under the [Unlicense](https://choosealicense.com/licenses/unlicense/).
+[Unlicense](https://choosealicense.com/licenses/unlicense/).
 
-## Acknowledgements
+## 謝辞
 
-This work is inspired by or references the following great repositories:
+以下のレポジトリを参考にしています。
 
 - [Luzhiled's Library](https://github.com/ei1333/library) by @ei1333
 - [Algorithm](https://github.com/drken1215/algorithm) repository by @drken1215
